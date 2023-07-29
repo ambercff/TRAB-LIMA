@@ -18,8 +18,13 @@
     
     nav a {
         text-decoration: none;
-        color: #FFF;
+        color: #F1FAEE;
     }
+
+    nav a:hover {
+        color: #457B9D;
+    }
+
     
     .menu, .infos, .user, .fale-conosco, .cart {
         display: flex;
@@ -27,14 +32,19 @@
         justify-content: space-evenly;
     }
     
-    .logo h1 {
-        font-size: 55px;
-        color: #1D3557;
+    .logo img {
+        width: 247px;
+        height: 76px;
     }
     
     .search-bar input {
         width: 452px;
         height: 37px;
+    }
+
+    #hamburguer {
+        margin-right: 5px;
+        cursor: pointer;
     }
     
     .infos {
@@ -57,7 +67,7 @@
     }
     
     .nav-secondary {
-        background-color: #FFF;
+        background-color: #F1FAEE;
         height: 45px;
     }
     
@@ -79,9 +89,17 @@
         display: flex;
         align-items: center;
     }
+
+    .card-categorias {
+        cursor: pointer;
+    }
     
     .categorias li:first-child {
         display: flex;
+    }
+
+    .categorias-active {
+        display: none;
     }
     
     header {
@@ -93,7 +111,7 @@
     .wrapper {
         display: flex;
         justify-content: center;
-        padding: 80px;
+        padding: 60px;
         flex-wrap: wrap;
         gap: 50px;
 
@@ -117,6 +135,7 @@
         display: flex;
         text-align: center;
         justify-self: center;
+        color: black;
     }
 
     
