@@ -1,0 +1,92 @@
+* {
+    color: #172A3A;
+}
+
+.imagem-produto img {
+    width: 480px;
+    height: 480px;
+}
+
+.produto {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.produto h1 {
+    font-size: 30px;
+    color: #172A3A;
+}
+
+.pagamento h1 {
+    font-weight: 800;
+    color: #172A3A;
+}
+
+.pagamento {
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.forma-pagamento {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-pagamento {
+    cursor: pointer; 
+    color: #3C87C5;
+}
+
+.container-frete {
+    margin-top: 50px;
+    border: solid 1px #172A3A;
+    padding: 20px;
+}
+
+.container-frete input {
+    width: 300px;
+    height: 30px;
+}
+
+.box-frete, .box-frete a {
+    display: flex;
+}
+
+.box-frete a {
+    align-items: center;
+    margin-left: 8px;
+    text-decoration: none;
+    color: #3C87C5;
+}
+
+.button-cart {
+    margin-top: 100px;
+}
+
+.button-cart button {
+    width: 100%;
+    height: 55px;
+    background-color: #172A3A;
+    color: #F5F5F5;
+    cursor: pointer;
+    border: none;
+}
+
+.title-wrapper {
+    margin-top: 100px;
+    margin-left: 170px;
+    font-size: 13px;
+}
+
+.valor-produto {
+    border-right: 2px solid #172A3A;
+    padding: 10px;
+}
+
+
+
+
